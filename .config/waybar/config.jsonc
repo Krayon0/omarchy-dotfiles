@@ -66,8 +66,8 @@
   "custom/vpn": {
     "format": "| 󰖂  {}",
     "interval": 5,
-    "exec": "exec $HOME/.scripts/openfortivpn print",
-    "on-click": "exec $HOME/.scripts/openfortivpn",
+    "exec": "$HOME/.scripts/vpn print",
+    "on-click": "alacritty -e sudo $HOME/.scripts/vpn",
     "return-type": "plain"
   },
   "network": {
