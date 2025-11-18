@@ -1,26 +1,19 @@
-Have to include this line in `sudo visudo` for VPN to work
+vpn script (~/.scripts/vpn)
 ```
-krayon ALL=(root) NOPASSWD: /home/krayon/.scripts/openfortivpn
-```
+#!/bin/bash
 
-
-openfortivpn script (~/.scripts/openfortivpn)
-```
 if [[ $1 == "print" ]];then
-  if [[ -z $(pgrep openfortivpn) ]];then
+  if pgrep openfortivpn > /dev/null; then
+    echo "Connected";
+  else 
     echo "Disconnected";
-    exit 0
   fi
-
-  echo "Connected";
-  exit 0
-fi
-
-if pgrep openfortivpn; then
-  sudo killall -9 openfortivpn
 else
-  sudo openfortivpn <VPN_PROVIDER_DOMAIN_HERE> --saml-login & xdg-open "https://<VPN_PROVIDER_DOMAIN_HERE>/remote/saml/start?redirect=1"
+  if pgrep openfortivpn; then
+    killall -9 openfortivpn
+  else
+    sudo -u krayon xdg-open "https://<VPN_PROVIDER_DOMAIN>/remote/saml/start?redirect=1" &
+    openfortivpn <VPN_PROVIDER_DOMAIN> --saml-login &
+  fi
 fi
-
-exit 0
 ```
