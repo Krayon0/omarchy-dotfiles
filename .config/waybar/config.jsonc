@@ -8,6 +8,7 @@
   "modules-center": ["clock", "custom/vpn", "custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
     "group/tray-expander",
+    "hyprland/language",
     "bluetooth",
     "network",
     "pulseaudio",
@@ -102,6 +103,11 @@
       "warning": 20,
       "critical": 10
     }
+  },
+  "hyprland/language": {
+    "format": "{}",
+    "format-en": "US",
+    "format-et": "ET"
   },
   "bluetooth": {
     "format": "",
