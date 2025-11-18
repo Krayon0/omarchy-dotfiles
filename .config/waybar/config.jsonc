@@ -10,7 +10,6 @@
     "group/tray-expander",
     "hyprland/language",
     "bluetooth",
-    "network",
     "pulseaudio",
     "cpu",
     "battery"
