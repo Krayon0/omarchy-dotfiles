@@ -4,9 +4,9 @@ vpn script (~/.scripts/vpn)
 
 if [[ $1 == "print" ]];then
   if pgrep openfortivpn > /dev/null; then
-    echo "Connected";
+    echo "Connected 🌐";
   else 
-    echo "Disconnected";
+    echo " ";
   fi
 else
   if pgrep openfortivpn; then

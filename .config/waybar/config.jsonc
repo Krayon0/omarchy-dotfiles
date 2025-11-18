@@ -64,11 +64,12 @@
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
   },
   "custom/vpn": {
-    "format": "| 󰖂  {}",
+    "format": "| VPN {}",
     "interval": 5,
     "exec": "$HOME/.scripts/vpn print",
     "on-click": "alacritty -e sudo $HOME/.scripts/vpn",
-    "return-type": "plain"
+    "return-type": "plain",
+    "tooltip": false
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
