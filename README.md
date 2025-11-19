@@ -1,3 +1,6 @@
+useful apps
+LACT, handbrake, losslesscut
+
 vpn script (~/.scripts/vpn)
 ```
 #!/bin/bash
