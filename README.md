@@ -1,6 +1,6 @@
 useful apps
 ```
-LACT, handbrake, losslesscut
+LACT, handbrake, losslesscut, sourcegit
 use slack-desktop-wayland with tray-delay conf for system tray working correctly
 ```
 
@@ -23,3 +23,4 @@ else
   fi
 fi
 ```
+split-monitor-workspaces hypr plugin (https://github.com/Duckonaut/split-monitor-workspaces)
