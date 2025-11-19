@@ -1,3 +1,5 @@
+use matte black omarchy theme
+
 useful apps
 ```
 LACT, handbrake, losslesscut, sourcegit
