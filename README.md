@@ -1,5 +1,9 @@
 useful apps
+```
+```
 LACT, handbrake, losslesscut
+use slack-desktop-wayland with tray-delay conf for system tray working correctly
+```
 
 vpn script (~/.scripts/vpn)
 ```
