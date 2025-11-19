@@ -9,7 +9,7 @@
 	name = Krayon
 	email = root@krayon.cc
 	signingkey = ~/.ssh/personal
-[includeIf "gitdir/i:~/Documents/Work/"]
+[includeIf "gitdir/i:~/Work/"]
   path = .gitconfig-work
 [init]
 	defaultBranch = main
