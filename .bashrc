@@ -10,3 +10,6 @@ source ~/.local/share/omarchy/default/bash/rc
 # Make an alias for invoking commands you use constantly
 # alias p='python'
 alias dotfiles='/usr/bin/git --git-dir=/home/krayon/.dotfiles/ --work-tree=/home/krayon'
+
+# Created by `pipx` on 2025-11-30 15:22:52
+export PATH="$PATH:/home/krayon/.local/bin"
