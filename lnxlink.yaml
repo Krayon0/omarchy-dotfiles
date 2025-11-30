@@ -22,7 +22,6 @@ update_on_change: false
 modules:
   - shutdown
   - microphone_used
-  - boot_select
 custom_modules: null
 exclude:
 - audio_select
