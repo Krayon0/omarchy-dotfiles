@@ -3,7 +3,6 @@ use matte black omarchy theme
 useful apps
 ```
 LACT, handbrake, sourcegit, teams-for-linux, kdenlive
-use slack-desktop-wayland with tray-delay conf for system tray working correctly
 ```
 
 vpn script (~/.scripts/vpn)
