@@ -27,7 +27,10 @@
   opacity: 0.5;
 }
 
-#workspaces button.visible,
+#workspaces button.empty {
+  opacity: 0.1;
+}
+
 #workspaces button.active {
   font-weight: bold;
   opacity: 1;
