@@ -39,9 +39,7 @@
 #cpu,
 #battery,
 #pulseaudio,
-#custom-omarchy,
-
-#custom-update {
+#custom-omarchy {
   margin: 0 7.5px;
   min-width: 12px;
 }

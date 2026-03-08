@@ -28,7 +28,7 @@
     "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
   },
   "custom/update": {
-    "format": "",
+    "format": "| ",
     "exec": "omarchy-update-available",
     "on-click": "omarchy-launch-floating-terminal-with-presentation omarchy-update",
     "tooltip-format": "Omarchy update available",
@@ -46,7 +46,7 @@
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
   },
   "custom/vpn": {
-    "format": "| VPN {}",
+    "format": "| VPN{}",
     "interval": 5,
     "exec": "$HOME/.scripts/vpn print",
     "on-click": "alacritty -e sudo $HOME/.scripts/vpn",
