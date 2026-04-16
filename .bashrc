@@ -13,3 +13,5 @@ alias dotfiles='/usr/bin/git --git-dir=/home/krayon/.dotfiles/ --work-tree=/home
 
 # Created by `pipx` on 2025-11-30 15:22:52
 export PATH="$PATH:/home/krayon/.local/bin"
+
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
