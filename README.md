@@ -27,3 +27,5 @@ fi
 split-monitor-workspaces hypr plugin (https://github.com/Duckonaut/split-monitor-workspaces)
 
 for betterbird to stay in system tray: https://www.reddit.com/r/Betterbird/comments/1o2vwin/betterbird_tray_fix_works_on_all_linux_distros_i/
+
+https://github.com/earthphum/LinuxDocuments/blob/main/Arch/fixed/keychron-fix.md
